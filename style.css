@@ -8,15 +8,14 @@
 .box {
   width: 100%;
   height: auto;
-  background: black;
+  background: #F1FAEE;
 }
 
 .container {
-  height: auto;
+  height: 100vh;
   max-width: 450px;
   margin: auto;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 50px 20px;
   background: white;
   display: flex;
   align-items: center;
@@ -35,7 +34,7 @@
 .header h1 {
   font-family: 'Old English Text MT', serif;
   font-size: 40px;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
 }
 
 .navbar {
@@ -51,7 +50,7 @@
 
 .navbar p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .wrapper {
@@ -66,15 +65,15 @@
 .wrapper__parent h1 {
   font-family: 'Anton';
   font-weight: 900;
-  font-size: 31px;
-  letter-spacing: 4.3px;
+  font-size: 30px;
+  letter-spacing: 4px;
 
 }
 
 .wrapper__child h1 {
   font-family: 'Playfair Display';
-  font-family: 50px;
-  letter-spacing: 14.3px;
+  font-family: 45px;
+  letter-spacing: 14px;
 }
 
 .center {
@@ -97,7 +96,7 @@
 .center__box img {
   width: 100%;
   height: 50%;
-
+  background: #F1FAEE;
 }
 
 .center__box__child {
@@ -121,6 +120,15 @@
 .p {
   font-family: 'Times New Roman', 'Times, serif';
   font-size: 10px;
+}
+
+.center__box__parent {
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .footer {
