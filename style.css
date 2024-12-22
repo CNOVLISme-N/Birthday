@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  background: black;
+}
+
+.container {
+  height: auto;
+  max-width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Old English Text MT', serif;
+  font-size: 40px;
+  letter-spacing: 1.6px;
+}
+
+.navbar {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+}
+
+.navbar p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wrapper__parent h1 {
+  font-family: 'Anton';
+  font-weight: 900;
+  font-size: 31px;
+  letter-spacing: 4.3px;
+
+}
+
+.wrapper__child h1 {
+  font-family: 'Playfair Display';
+  font-family: 50px;
+  letter-spacing: 14.3px;
+}
+
+.center {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.center__box {
+  width: 50%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.center__box img {
+  width: 100%;
+  height: 50%;
+
+}
+
+.center__box__child {
+  width: 80%;
+  height: auto;
+  border-bottom: 2px solid black;
+  font-size: 8.2px;
+  padding: 5px 0;
+}
+
+.center__box__child p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.center__box h5 {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.p {
+  font-family: 'Times New Roman', 'Times, serif';
+  font-size: 10px;
+}
+
+.footer {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+}
